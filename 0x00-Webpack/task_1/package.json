@@ -1,7 +1,6 @@
 {
   "name": "task_1",
   "version": "1.0.0",
-  "description": "",
   "main": "dashboard_main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,5 +16,6 @@
   "dependencies": {
     "jquery": "^3.6.0",
     "lodash": "^4.17.21"
-  }
+  },
+  "description": ""
 }
