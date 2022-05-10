@@ -4,9 +4,9 @@ module.exports = {
   mode: 'production',
   entry: './js/dashboard_main.js',
   output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, 'public')
-  }
+    path: path.resolve(__dirname, 'public'),
+    filename: 'bundle.js'
+  },
   module: {
     rules: [
       {
@@ -17,9 +17,9 @@ module.exports = {
         ]
       },
       {
-       test: /\.svg$/,
-       use: 'file-loader'
-     }
+        test: /\.svg$/,
+        use: 'file-loader'
+      }
     ]
   }
 };
